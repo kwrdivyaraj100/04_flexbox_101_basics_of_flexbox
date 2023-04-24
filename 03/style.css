@@ -28,12 +28,17 @@ h2 {
     display: flex;
     display: inline-flex;
     border: 5px solid black;
+    width: 300px;
 
-    /** flex direction**/
-    flex-direction: row;
-    flex-direction: row-reverse;
-    flex-direction: column;
-    flex-direction: column-reverse;
+/** flex wrap
+flex-wrap: nowrap;
+flex-wrap: wrap;
+flex-wrap: wrap-reverse; **/
+
+/** flex flow**/
+/** direction / wrap**/
+flex-flow:  nowrap;
+
 }
 
 .flex-element {
